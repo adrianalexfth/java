@@ -6,7 +6,7 @@ import java.net.URL;
 
 public class GitHubRawPageReader {
     public static void main(String[] args) {
-        String rawPageUrl = "https://raw.githubusercontent.com/username/repo/master/file.txt";
+        String rawPageUrl = "https://raw.githubusercontent.com/adrianalexfth/java/main/githubrawpagereader/testlicence.txt";
 
         try {
             URL url = new URL(rawPageUrl);
